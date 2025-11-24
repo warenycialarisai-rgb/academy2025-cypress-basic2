@@ -7,8 +7,11 @@ Feature: Login SauceDemo
   Scenario Outline: Login usuario - Escenario Outline 
     Given Navego al sitio de automationtesting
     When Me logueo como usuario con user '<user>' y pass '<pass>' 
-    Then Valido saludo de bienvenida en el Título
+    Then Valido que me redirijo al home
+   
 
         Examples:
           | user                                            |   pass                |
-          | standard_user                                   |   secret_sauce        |
+          | performance_glitch_user                         |   secret_sauce        |
+
+  

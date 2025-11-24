@@ -26,7 +26,16 @@ class LoginPage{
     cy.get(LoginLocators.inpUsernameLogin).type(user);
     cy.get(LoginLocators.inpPassLogin).type(pass);
     cy.get(LoginLocators.btnIniciarSesionLogin).click();
-};
+    };
+    
+
+
+
+
+
 }
+
+
+
 
 export default new LoginPage(); 
